@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@strapi/plugin-cloud": "^5.8.1",
+    "pg": "^8.13.1"
+  }
+}
