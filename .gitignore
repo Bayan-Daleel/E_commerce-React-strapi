@@ -11,12 +11,9 @@ lerna-debug.log*
 .env
 *.env
 package-lock.json
-yarn.lock
+
 node_modules/
-build/
-.cache/
-public/uploads/
-.tmp/
+
 
 # Frontend (MUI)
 dist/
