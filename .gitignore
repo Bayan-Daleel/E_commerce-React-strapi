@@ -7,32 +7,18 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-# Backend (Strapi)
-.env
-*.env
-package-lock.json
-
-node_modules/
-
-
-# Frontend (MUI)
-dist/
-.DS_Store
+node_modules
+dist
+dist-ssr
+*.local
 
 # Editor directories and files
-.vscode/
-.idea/
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
-
-# OS-specific files
-.DS_Store
-Thumbs.db
-
-# Dependency lock files
-package-lock.json
-yarn.lock
-pnpm-lock.yaml
